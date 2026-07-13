@@ -3,7 +3,7 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class Random_program_exercise {
-    public static void main(String[] args){
+    static void main(){
 
         Scanner sc = new Scanner(System.in);
 
@@ -15,10 +15,12 @@ public class Random_program_exercise {
         int credits = sc.nextInt();
         sc.nextLine();
 
+
+
         System.out.println("Would you like to play roulette? (yes/no)");
         String confirm = sc.nextLine();
 
-       if (Objects.equals(confirm, "yes")){
+        if (Objects.equals(confirm, "yes")){
             System.out.print("Which color would you like to bet on? (red/black) ");
             String gamble = sc.nextLine();
 
@@ -108,6 +110,7 @@ public class Random_program_exercise {
 3. MAKE THEM LOSE ALL THE CREDITS MUHUHUAHAHAHAHAH
 4. if they win, give then 1.7x the value they originally started from as a profit
 5.if they do not wanna gamble anymore, just make it so that they can actually cash their prizes in
-6. if i want anything else i will add it here ://///
+6. if I want anything else I will add it here ://///
+7. NEW DISCOVERY!!! As the bet amount increases, decrease the odds so they lose more often(hehehehe)
 
  */
