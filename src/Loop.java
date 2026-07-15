@@ -1,19 +1,45 @@
-import java.sql.SQLOutput;
+import java.util.Scanner;
 
 public class Loop {
    public static void main(String[] args) {
-       for(int i=0; i<=10; i++)
-       {
-           System.out.println("Pokemon");
-       }
-       int cache = 0;
-       while(cache<=0){
-           System.out.println("Hell yeah");
 
-           break;
+       Scanner sc = new Scanner(System.in);
+
+       System.out.print("Enter a number greater than 1: ");
+       int n = sc.nextInt();
+
+       for(int i=n; i>=1; i--){
+
+           System.out.print(i+ " ");
+
+
+
+
+
+
+           //if(i%3 ==0 && i%2!=0){
+             //  System.out.println(i);
+
+         //  }
+
+           }
+
+
+
+
+
+
+           //System.out.print(i*2 +" "); // easy even numbers
+           // System.out.println(num1); //repeating the same number n number of times.(same can be done for other variable types)
+
+
+
+
        }
+
+
 
     }
-}
+
 
 
