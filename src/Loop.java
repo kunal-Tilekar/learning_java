@@ -10,7 +10,7 @@ public class Loop {
         System.out.print("Enter the number of 'n' terms in the AP ");
         int num1 = sc.nextInt();
 
-        for (int i = 2;i<=num1*3; i+=3) {
+        for (int i = 2;i<=num1*3-1; i+=3) {
 
             System.out.print(i+" ");
 
