@@ -1,3 +1,5 @@
+package Random_Stuff;
+
 import java.util.Random;
 
 public class random_exercise_2 {

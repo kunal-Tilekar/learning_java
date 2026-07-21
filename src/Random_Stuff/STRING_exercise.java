@@ -1,3 +1,4 @@
+package Random_Stuff;
 
 public class STRING_exercise {
     public static void main(String[] args)

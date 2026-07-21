@@ -1,4 +1,4 @@
-
+package Random_Stuff;
 
 import  java.util.Scanner;
 public class hell_yeah {

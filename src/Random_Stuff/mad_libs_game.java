@@ -1,3 +1,5 @@
+package Random_Stuff;
+
 import java.util.Scanner;
 public class mad_libs_game {
     public static void main(String[] args){

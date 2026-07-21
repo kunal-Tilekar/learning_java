@@ -1,3 +1,5 @@
+package Random_Stuff;
+
 public class string {
 
     /*public static void main(String[] args) {
@@ -34,9 +36,9 @@ public class string {
 
         System.out.println(str1.trim()); //Removes front and trailing white spaces
 
-        System.out.println(str1.substring(2)); //Print new string starting from the given index
+        System.out.println(str1.substring(2)); //Print new Random_Stuff.string starting from the given index
 
-        System.out.println(str1.substring(2, 10));  //Print new string starting from the given index to the last given index
+        System.out.println(str1.substring(2, 10));  //Print new Random_Stuff.string starting from the given index to the last given index
 
         System.out.println(str1.replace('J', 'K'));  //Replace the given character by the new character
 

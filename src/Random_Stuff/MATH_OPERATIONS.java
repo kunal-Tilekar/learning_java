@@ -1,3 +1,5 @@
+package Random_Stuff;
+
 import java.util.Scanner;
 public record MATH_OPERATIONS() {
     static void main(String[] args) {

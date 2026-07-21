@@ -1,3 +1,5 @@
+package Random_Stuff;
+
 import java.util.Objects;
 import java.util.Random;
 import java.util.Scanner;
@@ -106,7 +108,7 @@ public class Random_program_exercise {
 
 /*HERE ARE MY PLANS (LOL) FOR THIS FUN LITTLE CODE.
 1.Assign values '1' to red and '2' to black
-2.Loop the whole thing such that the person can keep gambling as long as he can afford it
+2.Random_Stuff.Loop the whole thing such that the person can keep gambling as long as he can afford it
 3. MAKE THEM LOSE ALL THE CREDITS MUHUHUAHAHAHAHAH
 4. if they win, give then 1.7x the value they originally started from as a profit
 5.if they do not wanna gamble anymore, just make it so that they can actually cash their prizes in
