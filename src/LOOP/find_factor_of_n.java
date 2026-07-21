@@ -2,7 +2,7 @@ package LOOP;
 import java.util.Scanner;
 
 public class find_factor_of_n {
-    static void main(String[] args) {
+    static void main() {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter the number whose factorial you want: ");
