@@ -3,7 +3,7 @@ package LOOP;
 import java.util.Scanner;
 
 public class moreAP{
-    static void main(String[] args) {
+    static void main() {
 
         Scanner sc = new Scanner(System.in);
 
@@ -12,14 +12,18 @@ public class moreAP{
         System.out.print("Enter a number: ");
         int n = sc.nextInt();
 
-        for(int i=2;i<=n-1;i++){
+        for(int i=2;i<=Math.sqrt(n);i++){
             if(n%i==0){
                 flag = false;
                 break;
             }
         }
-        if(flag ==true) System.out.println("Prime number");
-        if (flag == false) System.out.println("Composite number");
+        if(flag && n !=1) System.out.println("Prime number");
+        if (!flag) System.out.println("Composite number");
+        if (n == 1) System.out.println("Neither prime nor composite");
+
+
+
 
 
 
