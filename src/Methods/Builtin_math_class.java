@@ -21,6 +21,12 @@ public class Builtin_math_class {
 //
 //        System.out.println(Math.max(Math.max(a,b),c));
 
+        int a,b,c;
+        a =20;
+        b=10;
+        c=30;
+        System.out.println(a%b);
+
 
     }
 
